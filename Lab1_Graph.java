@@ -525,3 +525,4 @@ public class Lab1_Graph {
 "// B1 change" 
 "// C4 change" 
 "// C4 change" 
+"// B2 modification" 
