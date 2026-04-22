@@ -23,7 +23,7 @@ public class Lab1_GraphBlackBoxTest {
         assertEquals("The bridge words from \"new\" to \"hello\" is: \"world\".", result);
     }
 
-    // BT2: 存在多个桥接词（本例中 new->world 的桥接词是 hello？实际 hello->world，所以 new->world 的桥接词是 hello）
+    // BT2: 存在多个桥接词
     @Test
     public void testQueryBridgeWords_MultipleBridges() {
         // 注意：new -> world 的直接边存在，桥接词需要 new->?->world，这里 ?=hello 满足 new->hello 和 hello->world
