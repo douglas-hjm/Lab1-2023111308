@@ -27,8 +27,8 @@ public class Lab1_GraphBlackBoxTest {
     @Test
     public void testQueryBridgeWords_MultipleBridges() {
         String result = Lab1_Graph.queryBridgeWords(graph, "new", "world");
-        // 期望输出：桥接词为 hello
-        assertEquals("The bridge words from \"new\" to \"world\" is: \"hello\".", result);
+        // 期望输出：桥接词为 hello和the
+        assertEquals("The bridge words from \"new\" to \"world\" are: \"hello\" and \"the\".", result);
     }
 
     // BT3: 无桥接词
